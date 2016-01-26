@@ -8,8 +8,11 @@ Regypt renames all the functions to simple numbers.
 
 Example of use: 
 
-
-$ g++ -dr someFile.cpp -o a.bin $ egypt *expand > outputFromEgypt.txt $ python regypt.py outputFromEgypt.txt > inputForNeato.gv $ neato -T png -o output.png inputForNeato.gv
+```bash
+$ g++ -dr someFile.cpp -o a.bin $ egypt *expand > outputFromEgypt.txt 
+$ python regypt.py outputFromEgypt.txt > inputForNeato.gv 
+$ neato -T png -o output.png inputForNeato.gv
+```
 
 This will generate a call graph for someFile.cpp where each function is a number.
 
